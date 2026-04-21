@@ -1,4 +1,6 @@
-﻿RewriteEngine On
+DirectoryIndex index.php index.html
+
+RewriteEngine On
 RewriteBase /
 
 RewriteRule ^admin/logout/?$ index.php?page=admin-logout [QSA,L]
